@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Phiên Outlook của từng hộp thư nằm ở đây - không bao giờ commit.
+.profiles/
+
+# Cấu hình của một lần triển khai: mang token, mật khẩu proxy/SMTP.
+.env
+# chay.sh là dạng cũ của .env (./setup.sh tự chuyển sang) - cùng lý do.
+chay.sh
+.token
+*.log
+*.pid
+node_modules/

@@ -1,0 +1,27 @@
+{
+  "name": "reader",
+  "version": "0.1.0",
+  "description": "Dán email Outlook, agent tự đăng nhập và trả về mã OTP gần nhất (bản Node.js/JavaScript).",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node src/index.js --check",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "playwright": "^1.49.1"
+  },
+  "keywords": [
+    "outlook",
+    "otp",
+    "playwright",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
