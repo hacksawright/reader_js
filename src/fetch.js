@@ -13,7 +13,7 @@ import {
   noticeButton,
   signOut,
 } from './mailLogin.js';
-import { inInbox, needsLogin, scanForCode } from './outlook.js';
+import { inInbox, needsLogin, scanForCode, shortUrl } from './outlook.js';
 import { clearStaleLock, explainLaunchError, profileFor } from './profile.js';
 import { parseProxy } from './proxy.js';
 import { shouldRotate } from './rotate.js';

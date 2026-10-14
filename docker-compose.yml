@@ -7,4 +7,4 @@ services:
     env_file:
       - .env
     volumes:
-      - ./profiles:/app/.profiles
+      - ./.profiles:/app/.profiles
